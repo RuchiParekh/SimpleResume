@@ -1,0 +1,225 @@
+/*html { box-sizing: border-box; 
+} 
+*, *:before, *:after { 
+	box-sizing: inherit; 
+}
+*/
+html {
+	font-size: 15px;
+	font-family: 'Dosis', sans-serif;
+	font-weight: normal;
+	line-height: 1.5em;
+}
+
+
+body {
+	padding: 1em 5%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+aside {
+	position: right;
+	top: 0;
+	right: 0;
+	text-align: right;
+	margin: 0;
+	padding: 0;	
+	/*float: right;*/
+}
+
+h1 {
+	padding: 0;
+	border:0;
+	margin: 20px;
+}
+
+h2 {
+  border: 1px solid #333;
+  border-width: 1px 0 0 0;
+  text-align: center;
+  padding: .5em 0;
+  margin: .5em 0;
+  margin-bottom: 0;
+}
+
+h3 {
+	padding: 0;
+	border:0;
+	margin: 0;
+}
+
+h4 {
+	padding: 0;
+	border:0;
+	margin: 0;
+}
+
+p {
+	padding: 0;
+	border:0;
+	margin: 0;
+}
+
+ul {
+	margin-top: 0;
+}
+
+.experience h3 {
+	list-style: none;
+}
+
+.journalrev h3{
+	margin: 0;
+}
+
+.journalrev ul {
+	margin: 0;
+	padding: 0;
+}
+
+.journalrev li {
+	display: inline-block;
+}
+
+.journalrev span {
+	float: left;
+}
+
+.journalrev aside {
+	float: right;
+}
+
+.journalrev li:before {
+	content:'|';
+	margin-right: .60em;
+	margin-left: .50em;
+}
+.journalrev li:nth-child(1):before {
+	content: '';
+	margin-left: 0;
+}
+
+.talks h3 {
+	margin: 0;
+}
+
+.talks ul {
+	margin: 0;
+	padding: 0;
+}
+
+.talks li {
+	list-style: none;
+	margin-left:0;
+	padding: 0;
+}
+
+.talks li span {
+	float: left;
+}
+
+.talks li aside {
+	float: right;
+}
+
+.certification aside {
+	font-weight: normal;
+	font-size: medium;
+}
+
+.expertise li {
+	display: inline-block;
+}
+
+.expertise li:before {
+	content:'|';
+	margin-right: .60em;
+	margin-left: .50em;
+}
+
+.expertise li:nth-child(1):before {
+	content: '';
+	margin-left: 0;
+}
+
+.expertise li:nth-child(7):before {
+	content: '';
+	margin-left: 0;
+}
+
+.inline {
+	margin-top: 0;
+}
+
+.skills li {
+	display: inline-block;
+}
+
+.skills li:before {
+	content:'|';
+	margin-right: .60em;
+	margin-left: .50em;
+}
+
+.skills li:nth-child(1):before {
+	content: '';
+	margin-left: 0;
+}
+
+.inline {
+	text-align: center;
+}
+
+.publications {
+	text-align: center;
+}
+
+.languages {
+	text-align: center;
+}
+
+.memberships p span{
+	float: left;
+}
+
+.memberships p aside {
+	float: right;
+}
+
+.oscar h3 span {
+	float: left;
+}
+
+.oscar h3 aside {
+	float: right;
+}
+
+.nakfi h3 span {
+	float: left;
+}
+
+.nakfi h3 aside {
+	float: right;
+}
+
+.profdev h3 span {
+	float: left;
+}
+
+.profdev h3 aside {
+	float: right;
+}
+
+.education h3 span {
+	float: left;
+}
+
+.education h3 aside {
+	float: right;
+}
+
+#footer h2 {
+	font-weight: bold;
+	font-size: small;
+}
