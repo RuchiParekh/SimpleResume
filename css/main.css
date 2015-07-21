@@ -5,7 +5,7 @@
 }
 */
 html {
-	font-size: 15px;
+	font-size: 20px;
 	font-family: 'Dosis', sans-serif;
 	font-weight: normal;
 	line-height: 1.5em;
@@ -65,32 +65,61 @@ ul {
 	margin-top: 0;
 }
 
+.namedegree h1 span{
+	float: left;
+}
+
+.namedegree aside {
+	float: right;
+}
+
+.experience h2 {
+	margin-top: 2.5em;
+}
 .experience h3 {
 	list-style: none;
 }
 
-.journalrev h3{
-	margin: 0;
+.experience h4 {
+	float: left;
+	font-weight: normal;
+}
+.reconstructions {
+	float: left;
+	margin-right: 20px;
 }
 
-.journalrev ul {
-	margin: 0;
-	padding: 0;
-}
-
-.journalrev li {
-	display: inline-block;
-}
-
-.journalrev span {
+.certification h3 span {
 	float: left;
 }
 
-.journalrev aside {
-	float: right;
+.accomplishment h3 span {
+	float: left;
+}
+/*
+.journalrev h3{
+	margin: 0;
+	float: left;
+}*/
+
+/*.journalrev ul {
+	margin: 0;
+	padding: 0;
+}*/
+
+.journalrev li {
+	list-style: none;
 }
 
-.journalrev li:before {
+.journalrev ul {
+	padding-left: 0;
+	margin-bottom: 0;
+}
+.journalrev h3 {
+	float: left;
+}
+
+/*.journalrev li:before {
 	content:'|';
 	margin-right: .60em;
 	margin-left: .50em;
@@ -98,7 +127,7 @@ ul {
 .journalrev li:nth-child(1):before {
 	content: '';
 	margin-left: 0;
-}
+}*/
 
 .talks h3 {
 	margin: 0;
@@ -125,8 +154,7 @@ ul {
 
 .certification aside {
 	font-weight: normal;
-	font-size: medium;
-}
+	}
 
 .expertise li {
 	display: inline-block;
@@ -143,7 +171,7 @@ ul {
 	margin-left: 0;
 }
 
-.expertise li:nth-child(7):before {
+.expertise li:nth-child(6):before {
 	content: '';
 	margin-left: 0;
 }
@@ -222,4 +250,8 @@ ul {
 #footer h2 {
 	font-weight: bold;
 	font-size: small;
+}
+
+.volunteer h3 span {
+	float: left;
 }
